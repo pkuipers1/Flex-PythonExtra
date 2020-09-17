@@ -55,17 +55,17 @@ def rainbowloop():
 rainbowloop()
 
 for i in range (200):
-    t.lt(180)
+    t.lt(70)
     rainbowloop()
-    t.lt(150)
+    t.lt(30)
     rainbowloop()
-    t.lt(180)
+    t.lt(70)
     rainbowloop()
-    t.lt(150)
+    t.lt(30)
     rainbowloop()
-    t.lt(180)
+    t.lt(70)
     rainbowloop()
-    t.lt(150)
+    t.lt(30)
     
     
 
