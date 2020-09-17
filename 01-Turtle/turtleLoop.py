@@ -1,6 +1,7 @@
 import turtle as t
 
 t.setup(700, 700, 0, 0)
+t.speed(0)
 t.width(2)
 t.pencolor("white")
 t.bgcolor("black")
@@ -54,17 +55,18 @@ def rainbowloop():
 rainbowloop()
 
 for i in range (200):
-    t.lt(30)
+    t.lt(180)
     rainbowloop()
-    t.lt(70)
+    t.lt(150)
     rainbowloop()
-    t.lt(30)
+    t.lt(180)
     rainbowloop()
-    t.lt(70)
+    t.lt(150)
     rainbowloop()
-    t.lt(30)
+    t.lt(180)
     rainbowloop()
-    t.lt(70)
+    t.lt(150)
+    
     
 
 
