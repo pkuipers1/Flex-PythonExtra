@@ -10,5 +10,5 @@ while running:
 # De letters cwd staan voor: current working directory (de huidige map!)
     # Een nieuwe map maken met os.mkdir()
     mapnaam += 1
-    os.mkdir(mapnaam)
+    os.mkdir(str(mapnaam))
     print("Created folder",mapnaam)
