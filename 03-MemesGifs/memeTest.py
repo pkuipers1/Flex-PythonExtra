@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Afbeelding openen en opslaan in de variabele met de naam: afbeelding
-afbeelding = Image.open("sunset.jpg")
+afbeelding = Image.open("meme.jpg")
 
 # De afbeelding tonen in de standaard image viewer van jouw systeem
 afbeelding.show()
@@ -15,3 +15,5 @@ hoogte = str(afbeelding.height)
 
 helft_breedte = afbeelding.width // 2
 helft_hoogte = afbeelding.height // 2
+
+kleinere_afbeelding.save('meme_klein.jpg')
